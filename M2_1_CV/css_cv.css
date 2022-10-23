@@ -1,124 +1,64 @@
-body {
-    margin: 7rem auto;
-    margin-bottom: 0;
-    width: 70vw;
-    font-family: 'PT Sans', sans-serif;
-    /* background-image: url("../images/bg.jpeg"); */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css_cv.css">
+<title>AHMAD CV</title>
+</head>
+<body>
+<header>
+    <h1>MY CV </h1>
+    <var id="myCvNav">
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/" target="_blank">linkedin </a>
+            </li>
+           
+            <li>
+                <a href="https://github.com/Ahmadqarout" target="_blank">github</a>
+            </li>
+        </u1>
+    </var>
+    <section>
+        <div id="cvImgWrapper">
+       <img src="./IMG_4898.PNG" alt="my personal photo"with="220"height="220">
+       <h2>ahmad qarout</h2>
+    </div>
+       <p id="obj">I am a hardworking, postive with skills of teamwork and leadership and problem solving,
+         in my last job I took over training a team, I am always trying to develop my skills and improve myself. 
+         I am independent and hardworking and I gained experience in sales at a young age,
+         I am always willing to improve myself.
+        I am looking for a job that helps me develop my skills in my major.</p>
+    </section>
+</header>
+<hr>
+<main>
 
-h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 4rem;
-    border: 16px ridge rgba(51, 95, 196, 0.86);
-    padding: 1.5rem 0;
-}
-
-#myCvNav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-#myCvNav ul li {
-    margin-right: 1rem;
-    font-size: 1.5rem;
-}
-
-#myCvNav ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-#myCvNav ul li a:hover {
-    opacity: .5;
-}
-
-#cvImgWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#cvImgWrapper h2 {
-    order: 1;
-    font-size: 2.5rem;
-}
-
-#cvImgWrapper img {
-    order: 2;
-    border-radius: 50%;
-}
-
-#objectives {
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'Caveat', cursive;
-    font-size: 1.4rem;
-}
-
-main {
-    margin-top: 4rem;
-    font-size: 1.2rem;
-}
-
-main section {
-    margin-bottom: 3rem;
-}
-
-h3 {
-    border: 6px inset rgba(51, 95, 196, 0.76);
-    width: 30%;
-    padding: .3rem .5rem;
-}
-
-main ul {
-    padding: 0;
-    list-style: none;
-}
-
-main section:first-child p {
-    margin: 0;
-    margin-bottom: .3rem;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #4d5159;
-    padding: 1.2rem 1rem;
-}
-
-footer * {
-    color: #f8f8f8;
-}
-
-@media only screen and (max-width: 550px) {
-    #cvImgWrapper {
-        flex-direction: column;
-        margin-top: 2rem;
-    }
-
-
-    #cvImgWrapper h2 {
-        order: 2;
-    }
-
-    #cvImgWrapper img {
-        order: 1;
-    }
-
-    h3 {
-        width: 100%;
-        text-align: center;
-    }
-
-    #boiSC {
-        display: none;
-    }
-
-    footer {
-        flex-direction: column-reverse;
-    }
-}
+    <section>
+        <h3>personal information</h3>
+        <div>
+            <p><strong>nationality :</strong> jordanian</p>
+            <p><strong>id num :</strong> 991020517</p>
+            <p><strong>date of birth :</strong><time datetime="1997-04-05">4<sup>th</sup> of may, 1997 </time> </p>
+        </div>
+    </section>
+<section>
+    <h3>education</h3>
+<u1>
+    <li>alfarooq school in 2015</li>
+    <li>al albayt university in 2016</li>
+    <li>graduation project in 2021 </li>
+    </u1>
+</section>
+</main>
+<footer>
+    <address>
+        <a href="mailto:ahmadqarout0@gmail.com">ahmadqarout0@gmail.com</a>
+        <a href="tel:00962785178730">00962785178730</a>
+    </address>
+    <p>Creation date: <time datetime="2022-10-22">22 of Oct, 2022</time></p>
+</footer>
+</body>
+</html>
