@@ -1,0 +1,50 @@
+body{
+    font-family: 'Island Moments', cursive;
+    font-size: 200%;
+}
+
+#lest{
+    font-size: 400%;
+}
+#popular{
+    background-color: rgba(128, 124, 124, 0.459);
+    
+}
+header {
+    background-image: url("./img/library-with-books-shelves-laptop-table_107791-1758.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+#hero>div {
+    background-color: azure;
+    width: 30%;
+    
+}
+
+#hero form button {
+    background-color: transparent;
+    color: #198754;
+        margin-left: -10%;
+}
+
+.htu-card-wrapper .card {
+    width: 100%;
+}
+#co , #lo{
+    color: #198754;
+}
+footer p {
+    text-align: center;
+    background-color: rgba(46, 46, 64, 0.614);
+    color: aliceblue;
+}
+#allhi{
+    font-size: 400%;
+
+}
+.htu-library{
+   font-family: 'Island Moments', cursive;
+}

@@ -1,0 +1,12 @@
+body{
+    font-family: 'Island Moments', cursive;
+    font-size: 300%;
+}
+
+
+
+footer p {
+    text-align: center;
+    background-color: rgba(46, 46, 64, 0.614);
+    color: aliceblue;
+}

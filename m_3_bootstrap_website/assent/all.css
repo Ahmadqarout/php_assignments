@@ -1,0 +1,27 @@
+ #ss{
+    font-family: 'Island Moments', cursive;
+    font-size: 200%;
+   
+}
+#cat{
+    width: 25%;
+    height: 100%;
+}
+#ca{
+    font-size: 200%;
+    text-decoration: underline;
+    color: rgba(46, 46, 64, 0.614);
+} 
+#price{
+    font-size: 150%;
+    color: rgba(46, 46, 64, 0.614);
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+footer p {
+    
+    text-align: center;
+    background-color: rgba(46, 46, 64, 0.614);
+    color: aliceblue;
+}
