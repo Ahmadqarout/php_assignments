@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Home",
+        "script_name": "home.php"
+    },
+    {
+        "title": "All Courses",
+        "script_name": "all_courses.php"
+    },
+
+    {
+        "title": "About Us",
+        "script_name": "about_us.php"
+    },
+    {
+        "title": "Create Course",
+        "script_name": "create.php"
+    }
+]
